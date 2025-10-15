@@ -22,7 +22,7 @@
     {included_applications, []},
     {mod, { hackney_app, []}},
     {env, [{timeout, 150000},
-      {max_connections, 50},
+      {max_connections, 100},
       {restart, permanent},
       {shutdown, 10000},
       {maxr, 10},
